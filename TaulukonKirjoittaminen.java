@@ -6,7 +6,7 @@
  */
 
 /**
- * @author keranen.jarno
+ * @author jarno
  *
  * TODO To change the template for this generated type comment go to
  * Window - Preferences - Java - Code Style - Code Templates
@@ -21,7 +21,7 @@ public class TaulukonKirjoittaminen {
 	{
 		String mNimi;
 		int mNimienLkm;
-		String jatko = "kyll‰";
+		String jatko = "kyll√§";
 		String[] taulukko = new String[5];
 		taulukko[0] = "Kuuba";
 		taulukko[1] = "Mosambik";
@@ -33,7 +33,7 @@ public class TaulukonKirjoittaminen {
 		
 		String AvustusTaulukko;
 		int mAvustusKohtLkm;
-		String jatko1 = "kyll‰";
+		String jatko1 = "kyll√§";
 		String[] taulukkoAvustus = new String[20];
 		taulukkoAvustus[0] = "";
 		taulukkoAvustus[1] = "";
@@ -44,13 +44,13 @@ public class TaulukonKirjoittaminen {
 		
 		/*
 		do {
-		mNimi = JOptionPane.showInputDialog("Mik‰ nimi lis‰t‰‰n?");
+		mNimi = JOptionPane.showInputDialog("Mik√§ nimi lis√§t√§√§n?");
 		taulukko[mNimienLkm]= mNimi;
 		mNimienLkm++;
-		jatko = JOptionPane.showInputDialog("Viel‰kˆ lis‰‰? kyll‰/ei");
+		jatko = JOptionPane.showInputDialog("Viel√§k√∂ lis√§√§? kyll√§/ei");
 		
 		} while (mNimienLkm < taulukko.length && 
-				jatko.equalsIgnoreCase("kyll‰"));
+				jatko.equalsIgnoreCase("kyll√§"));
 		
 		*/
 		
@@ -60,18 +60,18 @@ public class TaulukonKirjoittaminen {
 		
 		/*
 		*do {
-		*	AvustusTaulukko = JOptionPane.showInputDialog("Mihin kohteeseen lis‰t‰‰n avustuksia?");
+		*	AvustusTaulukko = JOptionPane.showInputDialog("Mihin kohteeseen lis√§t√§√§n avustuksia?");
 		*	taulukkoAvustus[mAvustusKohtLkm]= AvustusTaulukko;
 		*	mAvustusKohtLkm++;
-		*	jatko1 = JOptionPane.showInputDialog("Viel‰kˆ lis‰‰? kyll‰/ei");
+		*	jatko1 = JOptionPane.showInputDialog("Viel√§k√∂ lis√§√§? kyll√§/ei");
 		*	
 		*	} while (mNimienLkm < taulukkoAvustus.length && 
-		*			jatko1.equalsIgnoreCase("kyll‰"));
+		*			jatko1.equalsIgnoreCase("kyll√§"));
 		*/
 		
 		
 		
-		// lisataan taulukkoon nimi‰
+		// lisataan taulukkoon nimi√§
 		
 		String tiedostonimi = "taulukko.tmp";
 		// kirjoitetaan taulukko kokonaisena

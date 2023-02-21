@@ -6,7 +6,7 @@
  */
 
 /**
- * @author keranen.jarno
+ * @author jarno
  *
  * TODO To change the template for this generated type comment go to
  * Window - Preferences - Java - Code Style - Code Templates
@@ -25,11 +25,11 @@ public class Valikko {
 		"3. Tutki kohteita\n " +
 		"4. Lopetus");
 		mValinta = Integer.parseInt(mita);
-		// tutki mit‰ k‰ytt‰j‰ valitsi
+		// tutki mit√§ k√§ytt√§j√§ valitsi
 		if (mValinta == 1)
 		{
-			// avustuskohteiden yll‰pito
-			//JOptionPane.showMessageDialog(null,"Avustuskohteiden yll‰pitoa");
+			// avustuskohteiden yll√§pito
+			//JOptionPane.showMessageDialog(null,"Avustuskohteiden yll√§pitoa");
 			// TaulukonKirjoittaminen.taulukkoa();
 		    JOptionPane.showMessageDialog(null,"1)Kuuba\n" +
 		         "2)Mosambik\n" +

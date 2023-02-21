@@ -6,7 +6,7 @@
  */
 
 /**
- * @author keranen.jarno
+ * @author jarno
  *
  * TODO To change the template for this generated type comment go to
  * Window - Preferences - Java - Code Style - Code Templates
@@ -44,13 +44,13 @@ public class Yhteenveto {
 			
 			
 		}
-		teksti = teksti + "Mit‰ kohdetta haluat avustaa?\n [q] Lopeta ohjelma";
+		teksti = teksti + "Mit√§ kohdetta haluat avustaa?\n [q] Lopeta ohjelma";
 		mita = JOptionPane.showInputDialog(teksti);
 		mNumero = Integer.parseInt(mita);
 		
 		
-		// katsoo mik‰ lokero
-		strPaljonko = JOptionPane.showInputDialog("Mill‰ summalla?");
+		// katsoo mik√§ lokero
+		strPaljonko = JOptionPane.showInputDialog("Mill√§ summalla?");
 		mPaljonko = Double.parseDouble(strPaljonko);
 		summat[mNumero-1]= summat[mNumero-1] + mPaljonko;
 		k++;
@@ -61,7 +61,7 @@ public class Yhteenveto {
 		}while (k < 50);
 		
 		
-		//ohjelmasta poistuminen ei jostain syyst‰ toimi oikein.
+		//ohjelmasta poistuminen ei jostain syyst√§ toimi oikein.
 		//do{
 		  //  if (mita == q);
 		    //{

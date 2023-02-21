@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
  */
 
 /**
- * @author keranen.jarno
+ * @author jarno
  *
  * TODO To change the template for this generated type comment go to
  * Window - Preferences - Java - Code Style - Code Templates
@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
 public class Lahjoitus {
 
 	public static void main(String[] args) {
-		String jatko = "kyll‰";
+		String jatko = "kyll√§";
 	
 		{
 			double rahaa = 0;
@@ -33,15 +33,15 @@ public class Lahjoitus {
 			if (rahaa >= lahjoituksenMaara)
 			{
 				System.out.print(
-			// "Lahjoituksen j‰lkeen kohteessa on rahaa "
+			// "Lahjoituksen j√§lkeen kohteessa on rahaa "
 			+ (rahaa + lahjoituksenMaara) + " euroa");
 			}
 			 else
 			{
 			 	
 			System.out.print("");
-			jatko = JOptionPane.showInputDialog("Viel‰kˆ lis‰‰? kyll‰/ei");
-				// siirryt‰‰n jatkamaan lahjoituksia jos "kyll‰", mik‰li "ei" niin palataan valintavalikkoon
+			jatko = JOptionPane.showInputDialog("Viel√§k√∂ lis√§√§? kyll√§/ei");
+				// siirryt√§√§n jatkamaan lahjoituksia jos "kyll√§", mik√§li "ei" niin palataan valintavalikkoon
 			}
 		}
 	}
